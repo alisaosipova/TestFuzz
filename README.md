@@ -36,7 +36,7 @@ clang++ -g -fprofile-instr-generate -fcoverage-mapping -fsanitize=fuzzer,address
 ```
 Считываем все раны для html-отчета:
 ```bash
-./fuzz runs=0 in2
+./fuzz -runs=0 in2
 ```
 Генерируем html-отчет:
 ```bash
